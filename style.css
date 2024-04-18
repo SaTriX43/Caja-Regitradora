@@ -1,0 +1,169 @@
+:root {
+    --color-naranja:#dd9d02;
+    --color-piel:#c0ab87;
+    --color-gris:#d0d1d1;
+    --color-verdeClaro:#576a3d;
+    --color-verderOscuro:#053625;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-verderOscuro);
+    color: var(--color-gris);
+    font-family: sans-serif;
+}
+
+/* ----------------------------  */
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+
+    margin: auto;
+    align-items: center;
+}
+
+hr {
+    width: 100%;
+}
+
+/* -------  */
+/* formulario  */
+#form {
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 20px;
+
+    gap: 10px;
+}
+
+#form label {
+    text-align: center;
+}
+
+#numero {
+    width: 300px;
+    height: 40px;
+
+    padding: 10px;
+
+    background-color: #576a3d;
+    border: none;
+    border-radius: 20px;
+    border-bottom: 2px solid black;
+
+    font-size: 20px;
+    
+}
+
+
+#button {
+    width: 200px;
+    height: 40px;
+
+    margin: auto;
+
+    background-color: var(--color-naranja);
+    border-radius: 20px;
+
+    color: var(--color-verderOscuro);
+    font-size: 20px;
+    font-weight: 600px;
+    
+    transition: .5s all ease;
+}
+
+#button:hover {
+    background-color: #966e10;
+    color: var(--color-gris);
+}
+
+
+/* --------------  */
+#section__caja {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+    border: 2px solid black;
+
+    /* align-items: center; */
+}
+
+.container__div-total {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    
+    margin-left: 20px;
+
+    background-color: var(--color-piel);
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.div__total {
+    display: flex;
+    width: 80%;
+    height: 80%;
+
+    background-color: black;
+
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+}
+
+/* unir  */
+.unir {
+    width: 40px;
+    height: 30px;
+
+    margin-left: 50px;
+    background-color: #c0ab87;
+}
+
+.div__main {
+    display: flex;
+    width: 90%;
+    height: 300px;
+
+    padding: 20px;
+
+    background-color: #c0ab87;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.container__buttons {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.btn {
+    width: 20px;
+    height: 20px;
+}
+
+
+.div__cambio {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    padding: 10px;
+    margin-left: 40px;
+    background-color: var(--color-gris);
+    color: black;
+}
+
+.div__cambio p {
+    font-size: 15px;
+}
